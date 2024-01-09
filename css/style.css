@@ -1,0 +1,405 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Font', sans-serif;
+
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+    ;
+}
+
+.container1 {
+    background-image: url('../assets/bg.jpg');
+    background: linear-gradient();
+    height: 43.75rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    /* box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.877); */
+}
+
+
+.fade {
+    width: 100%;
+    height: 43.75rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.64);
+    top: 0;
+    left: 0;
+    z-index: 50;
+    /* Set a value lower than the z-index of nav */
+}
+
+
+nav {
+    z-index: 100;
+    width: 90%;
+    box-sizing: border-box;
+    height: auto;
+    position: sticky;
+}
+
+nav img {
+    width: 140px;
+    box-sizing: border-box;
+    filter: invert(21%) sepia(85%) saturate(7269%) hue-rotate(349deg) brightness(88%) contrast(107%);
+
+}
+
+.btn {
+    height: 2rem;
+    width: auto;
+    padding: 0.25rem 1rem;
+    background-color: rgb(229, 9, 20);
+
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 24 48;
+}
+
+.hero-content {
+    position: sticky;
+    z-index: 101;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin: auto;
+    line-height: 40px;
+
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.p2 {
+    padding-top: 20px;
+
+}
+
+.hero-content p {
+    font-weight: 590;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+
+
+
+.inputs-buttons {
+    display: flex;
+    margin: 12px;
+    align-items: center;
+    gap: 12px;
+
+}
+
+#hero-input {
+    padding: 20px;
+
+    width: 300px;
+    color: white;
+    border: 1px solid rgb(65, 61, 61);
+    background: rgba(0, 0, 0, 0.473);
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn-2 {
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: #e50914;
+    /* Netflix red color */
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+}
+
+.btn-2 img {
+    filter: invert(1);
+}
+
+.btn-2:hover {
+    background-color: #b2070d;
+    /* Slightly darker red on hover */
+}
+
+
+
+
+.section {
+
+    height: auto;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.s1-content {
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1-assets {
+    position: relative;
+    display: flex;
+
+    flex-grow: 1;
+    height: auto;
+}
+
+.s1-assets img {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 12;
+    width: 500px;
+}
+
+.s1-assets video {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 375px;
+}
+
+.s-text {
+    width: 45vw;
+    color: white;
+}
+
+.s-text h1 {
+    font-size: 3.5rem;
+}
+
+.s-text p {
+    display: inline-block;
+    width: 40vw;
+    margin-top: 30px;
+    font-size: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.s2-text h1 {
+    font-size: 3rem;
+}
+
+.s2-content {
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.s2-assets {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.mobail-img {
+    align-self: center;
+    width: 500px;
+}
+
+.download-box {
+    display: flex;
+    height: 100px;
+    width: 270px;
+    position: absolute;
+    border: 2px solid rgb(90, 90, 90);
+    ;
+    border-radius: 12px;
+    justify-content: space-between;
+    bottom: 88px;
+    background-color: black;
+    left: 110px;
+}
+
+
+.poster {
+    height: 85px;
+    margin: 9px;
+}
+
+.download-gif {
+    align-self: center;
+    height: 60px;
+    width: 48px;
+}
+
+.download-text {
+    align-self: center;
+}
+
+.download-text :nth-child(1) {
+    font-size: 15px;
+}
+
+.download-text :nth-child(2) {
+    font-size: 12px;
+    margin: 10px 0;
+    color: #0071eb;
+}
+
+.s3-content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+    height: 100%;
+}
+
+.s3-text {
+    width: 200px;
+}
+
+.s4-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.s4-text {
+    width: 596px;
+}
+
+.s4-assets img {
+    width: 500px;
+}
+
+
+.s5-container {
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.s5-heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 46px;
+    padding-bottom: 50px;
+}
+
+.s5-heading h1 {
+    font-size: 3rem;
+}
+
+.s5-questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s5-question {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-radius: 2px;
+    background-color: rgb(45, 45, 45);
+    padding: 15px;
+    margin-bottom: 10px;
+
+    transition: 250ms linear;
+}
+
+.s5-question:hover {
+    background-color: rgb(78, 77, 77);
+}
+
+.s5-question img {
+    filter: invert(1);
+    height: 35;
+}
+
+.s5-question p {
+    font-size: 1.5rem;
+}
+
+
+.bottom-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 12px;
+}
+
+.bottom-input p{
+    font-size: 1.2rem;
+    margin: 12px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    column-gap: 50px;
+}
+
+.footer-item a{
+    display: block;
+}
+
+footer a{
+    color: #b3b3b3;
+    padding: 10px;
+}
+
+.questions{
+    padding: 50px 0;
+}
